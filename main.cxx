@@ -182,7 +182,7 @@ int main(int argc, char* argv[])
 
             if (wp.power)
             {
-                return power;
+                std::cout << power << std::endl;
             }
             else
             {
